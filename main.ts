@@ -1,8 +1,4 @@
-let hello:any = 'Hi!'
-var hi = 'Hello'
-
-hello = 123
-hi = 'abcabc'
+import { MustHaveCoffee } from './src/coffee/getcoffee'
 
 function f(input: boolean) {
     let a = 100
@@ -15,6 +11,9 @@ function f(input: boolean) {
 
 console.log(f(true))
 console.log(f(false))
+
+let coffee = new MustHaveCoffee()
+console.log(coffee)
 
 // class SweetSweetBasil {
 //     name: string;
