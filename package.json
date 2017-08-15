@@ -1,0 +1,33 @@
+{
+  "name": "trytypescript",
+  "version": "1.0.0",
+  "description": "try base functions",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "ts-loader": "^2.3.2",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server -c-1",
+    "build": "webpack --watch --optimize-minimize",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmmeteo/trytypescript.git"
+  },
+  "keywords": [
+    "learn",
+    "webpack",
+    "typescript",
+    "npm"
+  ],
+  "author": "Dmitry Sichkar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmmeteo/trytypescript/issues"
+  },
+  "homepage": "https://github.com/dmmeteo/trytypescript#readme"
+}
